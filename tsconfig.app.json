@@ -23,12 +23,6 @@
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
 
-        /* Import alias */
-        "baseUrl": "./",
-        "path": {
-            "@/*": ["src/*"]
-        },
-
         "types": ["vitest/globals"]
     },
     "include": ["src", "vitest-setup.ts"]

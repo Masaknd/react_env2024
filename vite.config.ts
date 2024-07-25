@@ -11,4 +11,9 @@ export default defineConfig({
         environment: 'happy-dom',
         setupFiles: ['./vitest-setup.ts'],
     },
+    resolve: {
+        alias: {
+            '@': '/src',
+        },
+    },
 })
