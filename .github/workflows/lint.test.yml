@@ -1,26 +1,36 @@
 name: Lint and Test
 
-on: push
+on:
+  - push
+  - pull_request
 
 jobs:
-  lint-and-test:
+  cache-and-install:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Setup Node
-      uses: pnpm/action-setup@v4
-      with:
-        version: 9.6.0
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 9.6.0
+          run_install: false
 
-    - name: Install Dependencies
-      run: pnpm ci
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
 
-    - name: Run Lint
-      run: pnpm run lint
+      - name: Install dependencies
+        run: pnpm install
 
-    - name: Run Test
-      run: pnpm run test
+      - name: Run Lint
+        run: pnpm run lint
+
+      - name: Run Test
+        run: pnpm run test
 
 
