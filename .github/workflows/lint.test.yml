@@ -15,12 +15,12 @@ jobs:
         node-version: '20'
 
     - name: Install Dependencies
-      run: pnpm ci
+      run: npm ci
 
     - name: Run Lint
-      run: pnpm run lint
+      run: npm run lint
 
     - name: Run Test
-      run: pnpm run test
+      run: npm run test
 
 
