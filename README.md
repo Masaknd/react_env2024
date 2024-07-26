@@ -1,12 +1,14 @@
 # React Dev Environment
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)&nbsp; ![Green Sock](https://img.shields.io/badge/green%20sock-88CE02?style=for-the-badge&logo=greensock&logoColor=white)&nbsp; ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) &nbsp; ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)&nbsp; ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) <br>
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)&nbsp; ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)&nbsp; ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)&nbsp;
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)&nbsp; ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)&nbsp; ![Storybook](https://img.shields.io/badge/-Storybook-FF4785?style=for-the-badge&logo=storybook&logoColor=white)&nbsp; ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) <br>
 
 ## Description
 
-React Dev Environment with Typescript included Formatters, Testing Apps such as: ESLinter, Prettier, Husky and Lint-Staged. These apps check your codes every time when you commit and push to your git repository.
-TailwindCSS is for styling and Storybook is a UI catalog which you can check each style and function of the components you create.
-Shadcn/ui is a component library which you can just use to build a website without styling.
+React Dev Environment based on Vite with Typescript and TailwindCSS.
+ESLinter, Prettier, Husky, Lint-Staged and Github Actions which checks your codes every time when you commit and push to your git repository.
+Storybook is a UI catalog which you can check each style and function of the components you create.
+Shadcn/ui, a component library is available to build a website without styling on your own.
 
 
 ## Getting Started
@@ -17,7 +19,7 @@ Shadcn/ui is a component library which you can just use to build a website witho
 
 ## Dependencies
 
-- To use pnpm or yarn, change "npm" in package.json > scripts to "pnpm".
+- To use pnpm or yarn, change "npm" in package.json > scripts to "pnpm" | "yarn".
 
     ### Installing
 
