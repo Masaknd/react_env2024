@@ -6,7 +6,7 @@
 ## Description
 
 React Dev Environment based on Vite with Typescript and TailwindCSS.
-ESLinter, Prettier, Husky, Lint-Staged and Github Actions which checks your codes every time when you commit and push to your git repository.
+ESLinter, Prettier, Vitest, Husky, Lint-Staged and Github Actions which checks your codes every time when you commit and push to your git repository.
 Storybook is a UI catalog which you can check each style and function of the components you create.
 Shadcn/ui, a component library is available to build a website without styling on your own.
 
